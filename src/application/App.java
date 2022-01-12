@@ -10,6 +10,10 @@ public class App {
 		Tiger cat2 = new Tiger();
 		cat2.vocalize();
 		cat2.hunt();
+		
+		Lion cat3 = new Lion();
+		cat3.vocalize();
+		cat3.hunt();
 
 	}
 
