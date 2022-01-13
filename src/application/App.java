@@ -28,6 +28,18 @@ public class App {
 			cat.vocalize();
 			cat.hunt();
 		}
+		
+		Cat cat5 = new HouseCat();
+		//This does not work because Cat doesn't know
+		//anything about the HouseCat purr() method
+		//cat5.purr();
+		//Instead use
+		((HouseCat)cat5).purr();
+		//Tells Java to treat the cat5 object as if it is a
+		//HouseCat variable, not a Cat one.  This gives it
+		//access to the HouseCat methods
+		//This is called casting
+		
 
 	}
 

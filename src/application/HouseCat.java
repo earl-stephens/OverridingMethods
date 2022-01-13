@@ -14,4 +14,7 @@ public class HouseCat extends Cat {
 	//the super class. and will give an error if it isn't
 	//Best practice kind of thing
 	
+	public void purr() {
+		System.out.println("Purrrr!");
+	}
 }
